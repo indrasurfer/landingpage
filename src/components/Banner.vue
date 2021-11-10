@@ -9,7 +9,7 @@
             <div class="container">
                
                 <div class="banner-one__video video-popup">
-                  <i fa fa-play> </i>
+                  <i class="fa fa-play"> </i>
                 </div>
                 <div class="banner-one__moc" href="#services">
                   <img src="../assets/images/hp.png" class="wow fadeInUp" data-wow-duration="1500ms" alt=""/>
@@ -17,14 +17,14 @@
                 <div class="row1">
                  <div class="col-lg-7">
                    <div class="banner-one__content"> 
-                     <form class="banner-one__mc-form mc-form">
-                       <input type="text" name="email" placeholder="Email address">
-                       <button type="submit" class="btn banner-one__mc-btn"><span>Free Trial</span></button>
+                     <form class="banner-one__mc-form mc-form row-cols-2">
+                       <input type="text" name="email" placeholder="Email address" class="input-email">
+                       <button type="submit" class="btn banner-one__mc-btn button-colorfull"><span>Free Trial</span></button>
                      </form>
                      <div class="mc-form__response"></div>
-                     <h3>Manage Your <br> Project with <br> Application</h3>
+                     <h3>Manage Your Project with Application</h3>
                      <p>Nulla facilisi. Proin felis neque, suscipit egestas erat a<!-- --> <br> tincidunt finibus magna consectetur lacus.</p>
-                     <a href="#" class="btn banner-one__btn"><span>Discover More</span></a>
+                     <a href="#" class="btn banner-one__btn btn-border-colorfull"><span>Discover More</span></a>
                    </div>
                  </div> 
                 </div>
