@@ -5,11 +5,10 @@
          <div class="banner-one__bg hero">
            </div>
             <div class="banner-one__bg" style="background-image:url(/assets/bannerkanan.jpg)">
-                </div>
-            <div class="container">
-               
-                <div class="banner-one__video video-popup">
-                  <i fa fa-play> </i>
+              </div>
+                <div class="container">
+                  <div class="banner-one__video video-popup">
+                   <i fa fa-play> </i>
                 </div>
                 <div class="banner-one__moc" href="#services">
                   <img src="../assets/images/hp.png" class="wow fadeInUp" data-wow-duration="1500ms" alt=""/>
