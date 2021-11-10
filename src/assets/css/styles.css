@@ -13773,4 +13773,12 @@ section#contact form#contactForm :-ms-input-placeholder {
 .button-download:hover::before {
     transform: scale(1);
     transform-origin: right center;
+} 
+
+.navbar-shrink .button-download-bg {
+  border-color: #000;
+}
+
+.navbar-shrink .button-download- span {
+  color: #000;
 }
