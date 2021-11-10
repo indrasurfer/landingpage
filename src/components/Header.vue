@@ -18,7 +18,7 @@
                     </ul>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <a class="btn btn-primary btn-xl text-uppercase ms-auto py-6 py-lg-0" href="#services">
+                    <a class="btn btn-primary btn-xl text-uppercase ms-auto py-6 py-lg-0 button-download-bg button-download" href="#services">
                       <span>Download App</span>
                     </a>
                     

@@ -11368,6 +11368,7 @@ p {
   transition: .5s;
   position: relative;
   cursor: pointer;
+  text-decoration: none;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
   color: #c73b10;
@@ -11487,7 +11488,7 @@ img {
 .banner-one__bg {
   position: absolute;
   top: 0;
-  right: -30%;
+  right: -20%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
@@ -11509,8 +11510,8 @@ div {
   bottom: 0;
 }
 .banner-one__bg:before {
-  background-image: linear-gradient(to top, #333 0%, transparent 100%);
-  opacity: 0.8;
+  background-image: linear-gradient(120deg,#fd632f 0,#4550f8 100%);
+  opacity: 0.5;
 }
 *, :after, :before {
   box-sizing: border-box;
@@ -11846,7 +11847,7 @@ a {
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .cta-one__content{
   position: relative;
@@ -12184,7 +12185,7 @@ a {
 a:-webkit-any-link {
   color: -webkit-link;
   cursor: pointer;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 .brand-one {
   background-image: url(/_next/static/media/brand-bg-1-1.ee4d06e….png);
@@ -13713,4 +13714,63 @@ section#contact form#contactForm :-ms-input-placeholder {
   text-align: center;
   font-size: 0.9rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.button-download-bg {
+  background-image: linear-gradient(90deg,#4550f8 0,#fd632f 100%);
+  height: 52px;
+  padding: 13px 50px;
+}
+
+.button-download-bg::before {
+    transform: scale(1);
+    background-image: linear-gradient(90deg,#4550f8 0,#fd632f 100%);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 5px;
+  }
+
+  .button-download-bg:hover::before {
+    transform: scaleX(0);
+  }
+
+.button-download-bg:hover {
+  background-color: none;
+  background: none;
+  border: 2px solid #fff;
+}
+
+.button-download {
+  height: 52px;
+  background-image: none;
+  border: 2px solid #fff;
+  cursor: pointer;
+  position: relative;
+  font-size: 16px;
+}
+
+.button-download span {
+  line-height: 52px;
+  color: #fff;
+  position: relative;
+}
+
+.button-download::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  /* background-color: #fff; */
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform .5s ease;
+}
+
+.button-download:hover::before {
+    transform: scale(1);
+    transform-origin: right center;
 }
