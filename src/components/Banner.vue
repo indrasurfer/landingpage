@@ -5,11 +5,18 @@
          <div class="banner-one__bg hero">
            </div>
             <div class="banner-one__bg" style="background-image:url(/assets/bannerkanan.jpg)">
+                </div>
             <div class="container">
                
                 <div class="banner-one__video video-popup">
                   <i class="fa fa-play"> </i>
                 </div>
+                <div class="banner-one__moc" href="#services">
+                  <img src="../assets/images/hp.png" class="wow fadeInUp" data-wow-duration="1500ms" alt=""/>
+                </div>
+                <div class="row1">
+                 <div class="col-lg-7">
+                   <div class="banner-one__content"> 
                      <form class="banner-one__mc-form mc-form row-cols-2">
                        <input type="text" name="email" placeholder="Email address" class="input-email">
                        <button type="submit" class="btn banner-one__mc-btn button-colorfull"><span>Free Trial</span></button>
