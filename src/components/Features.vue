@@ -65,7 +65,7 @@
         class="cta-one__bg-shape-2"
         alt=""
       />
-      <div class="container">
+      <div class="container right-position">
         <div class="cta-one__moc wow fadeInLeft" data-wow-duration="1500ms">
           <img
             src="_next/static/images/cta-1-moc-1-4a07ba994bad32de69a56080662a9dc5.png"
@@ -81,7 +81,7 @@
                 <h3>Powerful Application for Your Projects</h3>
               </div>
               <div class="cta-one__text">
-                <p>
+                <p style="font-size: 24px;">
                   Duis aute irure dolor in reprehenderit in voluptate velit esse
                   cillum dolore eu fugiat nulla pariatur.
                 </p>
@@ -100,8 +100,8 @@
                   fugiat nulla pariatur.
                 </li>
               </ul>
-              <a href="#" class="thm-btn cta-one__btn"
-                ><span>Discover More</span></a
+              <a href="#" class="thm-btn cta-one__btn btn-border-colorfull" style="width: 30%"
+                ><span style="line-height: 37px">Discover More</span></a
               >
             </div>
           </div>
